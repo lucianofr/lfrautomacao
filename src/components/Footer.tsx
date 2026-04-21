@@ -34,7 +34,7 @@ export default function Footer() {
             <ul className={styles.links}>
               <li><a href="https://luciano-franca-rocha-cv.com.br/" target="_blank" rel="noopener noreferrer">Currículo Online</a></li>
               <li><a href="https://dimgrey-gnu-525245.hostingersite.com/" target="_blank" rel="noopener noreferrer">Portfólio de Projetos</a></li>
-              <li><a href="https://termopares.click/" target="_blank" rel="noopener noreferrer">Termopares.click</a></li>
+              <li><a href="https://termopares.click/" target="_blank" rel="noopener noreferrer">TermoCar</a></li>
             </ul>
           </div>
 

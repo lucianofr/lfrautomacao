@@ -96,7 +96,7 @@ export default function Home() {
                 tags={['FastAPI', 'Next.js', 'Segmentação', 'Controle de Qualidade']}
               />
               <ProductCard 
-                title="Termopares.click"
+                title="TermoCar"
                 description="Portal e solução completa de instrumentação especializada e medição de temperatura para processos rigorosos."
                 href="https://termopares.click/"
                 icon={<Thermometer size={28} />}
