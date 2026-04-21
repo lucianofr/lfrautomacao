@@ -1,17 +1,23 @@
 import type { Metadata } from "next";
-import { Chakra_Petch, IBM_Plex_Sans } from "next/font/google";
+import { Poppins, Inter, IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
 
-const chakra = Chakra_Petch({ 
+const poppins = Poppins({ 
   weight: ['400', '500', '600', '700'],
   subsets: ["latin"],
   variable: '--font-heading',
 });
 
-const plex = IBM_Plex_Sans({ 
+const inter = Inter({ 
   weight: ['400', '500', '600'],
   subsets: ["latin"],
   variable: '--font-body',
+});
+
+const plexMono = IBM_Plex_Mono({ 
+  weight: ['400', '600'],
+  subsets: ["latin"],
+  variable: '--font-mono',
 });
 
 export const metadata: Metadata = {
@@ -25,8 +31,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-BR">
-      <body className={`${chakra.variable} ${plex.variable}`}>
+    <html lang="pt-BR" className="scroll-smooth">
+      <body className={`${inter.variable} ${poppins.variable} ${plexMono.variable} antialiased`}>
         {children}
       </body>
     </html>

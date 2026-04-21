@@ -19,7 +19,7 @@ export default function Home() {
             </div>
             <h1 className={`heading-xl animate-fade-in delay-100`}>
               Controle Avançado para o <br/>
-              <span className="text-gradient-yellow">Chão de Fábrica</span>
+              <span className="text-gradient-amber">Chão de Fábrica</span>
             </h1>
             <p className={`${styles.heroDescription} animate-fade-in delay-200`}>
               A LFR Automação é uma consultoria especializada em otimização de processos 
@@ -28,7 +28,7 @@ export default function Home() {
             </p>
             <div className={`${styles.heroActions} animate-fade-in delay-300`}>
               <a href="#solucoes" className="btn-primary">Explorar Soluções</a>
-              <a href="#metodologia" className="btn-outline">Nossa Metodologia</a>
+              <a href="#metodologia" className="btn-outline" style={{ color: '#fff', borderColor: '#fff' }}>Nossa Metodologia</a>
             </div>
           </div>
         </section>
@@ -37,7 +37,7 @@ export default function Home() {
         <section id="metodologia" className={`section ${styles.methodology}`}>
           <div className="container">
             <div className={styles.sectionHeader}>
-              <h2 className="heading-lg">Engenharia de <span className="text-gradient-blue">Precisão</span></h2>
+              <h2 className="heading-lg">Engenharia de <span className="text-gradient-navy">Precisão</span></h2>
               <p>Nossa abordagem não se baseia em "caixas pretas", mas sim em fundamentos de engenharia aplicados à fronteira da tecnologia computacional.</p>
             </div>
             
@@ -62,7 +62,7 @@ export default function Home() {
         <section id="solucoes" className={`section ${styles.solutions}`}>
           <div className="container">
             <div className={styles.sectionHeader}>
-              <h2 className="heading-lg">Nossas <span className="text-gradient-yellow">Soluções</span></h2>
+              <h2 className="heading-lg">Nossas <span className="text-gradient-amber">Soluções</span></h2>
               <p>Ferramentas avançadas desenvolvidas para resolver os gargalos mais críticos da indústria de processos.</p>
             </div>
 
@@ -103,7 +103,7 @@ export default function Home() {
         <section id="sobre" className={`section ${styles.about}`}>
           <div className="container">
             <div className={styles.sectionHeader}>
-              <h2 className="heading-lg">Sobre o <span className="text-gradient-yellow">Especialista</span></h2>
+              <h2 className="heading-lg">Sobre o <span className="text-gradient-amber">Especialista</span></h2>
             </div>
             <div className={styles.aboutContent}>
               <div className={styles.aboutText}>

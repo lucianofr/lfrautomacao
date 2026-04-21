@@ -1,6 +1,6 @@
 .card {
   position: relative;
-  background: var(--bg-surface);
+  background: var(--bg-pure);
   border: 1px solid var(--border-color);
   padding: 2rem;
   display: flex;
@@ -9,6 +9,8 @@
   transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
   overflow: hidden;
   height: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
 }
 
 .fullLink {
@@ -26,8 +28,8 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 2px;
-  background: var(--accent-yellow);
+  height: 3px;
+  background: var(--navy-mid);
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 0.4s ease;
@@ -35,9 +37,8 @@
 
 .card:hover {
   transform: translateY(-5px);
-  border-color: rgba(251, 191, 36, 0.3);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), 0 0 20px var(--accent-yellow-glow);
-  background: var(--bg-surface-elevated);
+  border-color: var(--border-mid);
+  box-shadow: 0 15px 35px rgba(30, 58, 95, 0.1);
 }
 
 .card:hover::before {
@@ -47,18 +48,20 @@
 .iconWrapper {
   width: 50px;
   height: 50px;
-  background: rgba(255, 255, 255, 0.05);
+  background: var(--bg-light);
   display: flex;
   align-items: center;
   justify-content: center;
   border: 1px solid var(--border-color);
-  color: var(--accent-yellow);
+  color: var(--navy);
   transition: all 0.4s ease;
+  border-radius: 8px;
 }
 
 .card:hover .iconWrapper {
-  background: var(--accent-yellow-glow);
-  border-color: var(--accent-yellow);
+  background: var(--navy);
+  border-color: var(--navy-deep);
+  color: #fff;
   transform: scale(1.1);
 }
 
@@ -70,10 +73,10 @@
 }
 
 .title {
-  font-family: var(--font-heading);
+  font-family: var(--font-heading), sans-serif;
   font-size: 1.5rem;
   font-weight: 600;
-  color: var(--text-primary);
+  color: var(--navy-deep);
   letter-spacing: 0.02em;
 }
 
@@ -87,8 +90,8 @@
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  color: var(--text-primary);
-  font-family: var(--font-heading);
+  color: var(--navy);
+  font-family: var(--font-heading), sans-serif;
   font-weight: 600;
   text-transform: uppercase;
   font-size: 0.9rem;
@@ -101,7 +104,7 @@
 }
 
 .card:hover .link {
-  color: var(--accent-yellow);
+  color: var(--amber);
 }
 
 .card:hover .link svg {
@@ -118,8 +121,9 @@
 .tag {
   font-size: 0.75rem;
   padding: 0.2rem 0.5rem;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  color: var(--text-secondary);
-  font-family: var(--font-heading);
+  background: var(--bg-light);
+  border: 1px solid var(--border-color);
+  color: var(--text-muted);
+  font-family: var(--font-mono), monospace;
+  border-radius: 4px;
 }
