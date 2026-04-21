@@ -14,10 +14,7 @@ export default function Home() {
         <section className={styles.hero}>
           <div className={styles.heroBg}></div>
           <div className={`container ${styles.heroContent}`}>
-            <div className={`${styles.badge} animate-fade-in`}>
-              <span className="pulse-dot"></span> Edge Computing & IA Industrial
-            </div>
-            <h1 className={`heading-xl animate-fade-in delay-100`}>
+            <h1 className={`heading-xl animate-fade-in delay-100`} style={{ color: '#fff' }}>
               Controle Avançado para o <br/>
               <span className="text-gradient-amber">Chão de Fábrica</span>
             </h1>
