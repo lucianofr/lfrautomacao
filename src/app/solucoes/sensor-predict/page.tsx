@@ -1,4 +1,4 @@
-import Image from 'next/image';
+
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { Activity, BrainCircuit, LineChart, Database } from 'lucide-react';
@@ -27,11 +27,9 @@ export default function SensorPredictPage() {
                 Você treina um modelo, aperta um botão, e passa a ter uma inferência contínua de qualidade.
               </blockquote>
 
-              <Image 
+              <img 
                 src="/images/sensorpredict1.png" 
                 alt="Interface do SensorPredict" 
-                width={1200} 
-                height={675} 
                 className={styles.screenshot} 
               />
 
@@ -50,11 +48,9 @@ export default function SensorPredictPage() {
 
               <h2>Funcionalidades Principais</h2>
               
-              <Image 
+              <img 
                 src="/images/sensorpredict2.png" 
                 alt="Gráficos e predições do SensorPredict" 
-                width={1200} 
-                height={675} 
                 className={styles.screenshot} 
               />
 

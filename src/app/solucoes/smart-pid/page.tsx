@@ -1,4 +1,4 @@
-import Image from 'next/image';
+
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { Layers, Zap, Settings, GitFork } from 'lucide-react';
@@ -27,11 +27,9 @@ export default function SmartPidPage() {
                 Na indústria de processos, mais de 60% das malhas de controle PID operam com sintonia subótima.
               </blockquote>
 
-              <Image 
+              <img 
                 src="/images/smartpid1.png" 
                 alt="Interface do Smart PID Edge" 
-                width={1200} 
-                height={675} 
                 className={styles.screenshot} 
               />
 

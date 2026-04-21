@@ -1,4 +1,4 @@
-import Image from 'next/image';
+
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { ShieldCheck, Crosshair, Network, Cpu } from 'lucide-react';
@@ -27,11 +27,9 @@ export default function SafeGuardPage() {
                 Parada de emergência automática, sem depender do reflexo humano.
               </blockquote>
 
-              <Image 
+              <img 
                 src="/images/safeguard.jpeg" 
                 alt="SafeGuard Vision Interface" 
-                width={1200} 
-                height={675} 
                 className={styles.screenshot} 
               />
 
@@ -54,11 +52,9 @@ export default function SafeGuardPage() {
 
               <h2>Desafios Técnicos Solucionados</h2>
               
-              <Image 
+              <img 
                 src="/images/safeguard2.jpeg" 
                 alt="Detecções do SafeGuard Vision" 
-                width={1200} 
-                height={675} 
                 className={styles.screenshot} 
               />
 

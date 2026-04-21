@@ -1,4 +1,4 @@
-import Image from 'next/image';
+
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { Camera, Server, Lock, Microscope } from 'lucide-react';
@@ -27,11 +27,9 @@ export default function VirtualSievePage() {
                 Substitui a peneira física por câmeras posicionadas estrategicamente, analisando o material continuamente. O nome diz tudo: uma peneira virtual.
               </blockquote>
 
-              <Image 
+              <img 
                 src="/images/virtualsieve1.png" 
                 alt="Detecções do VirtualSieve em tempo real" 
-                width={1200} 
-                height={675} 
                 className={styles.screenshot} 
               />
 
