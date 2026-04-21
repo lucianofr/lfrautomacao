@@ -30,6 +30,15 @@ export default function Footer() {
           </div>
 
           <div className={styles.column}>
+            <h4>Links Rápidos</h4>
+            <ul className={styles.links}>
+              <li><a href="https://luciano-franca-rocha-cv.com.br/" target="_blank" rel="noopener noreferrer">Currículo Online</a></li>
+              <li><a href="https://dimgrey-gnu-525245.hostingersite.com/" target="_blank" rel="noopener noreferrer">Portfólio de Projetos</a></li>
+              <li><a href="https://termopares.click/" target="_blank" rel="noopener noreferrer">Termopares.click</a></li>
+            </ul>
+          </div>
+
+          <div className={styles.column}>
             <h4>Contato</h4>
             <ul className={styles.links}>
               <li><a href="mailto:luciano82@gmail.com">luciano82@gmail.com</a></li>

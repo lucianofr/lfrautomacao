@@ -1,7 +1,7 @@
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ProductCard from '@/components/ProductCard';
-import { ShieldAlert, Activity, BrainCircuit, Scan } from 'lucide-react';
+import { ShieldAlert, Activity, BrainCircuit, Scan, Thermometer } from 'lucide-react';
 import styles from './page.module.css';
 
 export default function Home() {
@@ -95,6 +95,13 @@ export default function Home() {
                 icon={<Scan size={28} />}
                 tags={['FastAPI', 'Next.js', 'Segmentação', 'Controle de Qualidade']}
               />
+              <ProductCard 
+                title="Termopares.click"
+                description="Portal e solução completa de instrumentação especializada e medição de temperatura para processos rigorosos."
+                href="https://termopares.click/"
+                icon={<Thermometer size={28} />}
+                tags={['Instrumentação', 'Medição Térmica', 'Solução Externa']}
+              />
             </div>
           </div>
         </section>
@@ -117,9 +124,18 @@ export default function Home() {
                 <p>
                   Além da aplicação prática em chão de fábrica, atua com pesquisa técnica, sendo coautor de estudos voltados à eficiência operacional e uso de metodologias como Design for Six Sigma (DFSS) em ambientes industriais críticos.
                 </p>
-                <a href="https://www.linkedin.com/in/lucianofr/" target="_blank" rel="noopener noreferrer" className="btn-outline" style={{ marginTop: '1.5rem', display: 'inline-flex', alignItems: 'center', gap: '0.5rem' }}>
-                  Acessar Currículo Completo no LinkedIn
-                </a>
+                
+                <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', marginTop: '1.5rem' }}>
+                  <a href="https://luciano-franca-rocha-cv.com.br/" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem' }}>
+                    Acessar Currículo Completo
+                  </a>
+                  <a href="https://dimgrey-gnu-525245.hostingersite.com/" target="_blank" rel="noopener noreferrer" className="btn-outline" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem' }}>
+                    Ver Portfólio de Projetos
+                  </a>
+                  <a href="https://www.linkedin.com/in/lucianofr/" target="_blank" rel="noopener noreferrer" className="btn-outline" style={{ border: 'none', textDecoration: 'underline' }}>
+                    LinkedIn
+                  </a>
+                </div>
               </div>
             </div>
           </div>

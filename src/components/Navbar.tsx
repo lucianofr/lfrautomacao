@@ -30,14 +30,14 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
-            <Link href="/#metodologia" className={styles.navLink}>
-              Metodologia
-            </Link>
+            <a href="https://dimgrey-gnu-525245.hostingersite.com/" target="_blank" rel="noopener noreferrer" className={styles.navLink}>
+              Portfólio
+            </a>
           </li>
           <li>
-            <Link href="/#sobre" className={styles.navLink}>
-              Sobre
-            </Link>
+            <a href="https://luciano-franca-rocha-cv.com.br/" target="_blank" rel="noopener noreferrer" className={styles.navLink}>
+              Currículo
+            </a>
           </li>
         </ul>
 

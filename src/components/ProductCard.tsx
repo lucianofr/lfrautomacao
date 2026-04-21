@@ -11,9 +11,17 @@ interface ProductCardProps {
 }
 
 export default function ProductCard({ title, description, href, icon, tags }: ProductCardProps) {
+  const isExternal = href.startsWith('http');
+  
   return (
     <div className={styles.card}>
-      <Link href={href} className={styles.fullLink} aria-label={`Ver detalhes sobre ${title}`} />
+      <Link 
+        href={href} 
+        className={styles.fullLink} 
+        aria-label={`Ver detalhes sobre ${title}`} 
+        target={isExternal ? "_blank" : undefined}
+        rel={isExternal ? "noopener noreferrer" : undefined}
+      />
       
       <div className={styles.iconWrapper}>
         {icon}
