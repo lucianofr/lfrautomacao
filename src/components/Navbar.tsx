@@ -34,6 +34,11 @@ export default function Navbar() {
               Metodologia
             </Link>
           </li>
+          <li>
+            <Link href="/#sobre" className={styles.navLink}>
+              Sobre
+            </Link>
+          </li>
         </ul>
 
         <Link href="mailto:luciano82@gmail.com" className={`btn-outline ${styles.contactBtn}`}>

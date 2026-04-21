@@ -33,6 +33,7 @@ export default function Footer() {
             <h4>Contato</h4>
             <ul className={styles.links}>
               <li><a href="mailto:luciano82@gmail.com">luciano82@gmail.com</a></li>
+              <li><a href="https://www.linkedin.com/in/lucianofr/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
               <li>São Paulo, SP - Brasil</li>
             </ul>
           </div>

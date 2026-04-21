@@ -114,6 +114,34 @@
 .solutions {
   background: var(--bg-dark);
 }
+/* About Section */
+.about {
+  background-color: var(--surface-color);
+  border-top: 1px solid var(--border-color);
+  padding: 4rem 0;
+}
+
+.aboutContent {
+  max-width: 800px;
+  background-color: rgba(255, 255, 255, 0.02);
+  padding: 3rem;
+  border-radius: 8px;
+  border-left: 3px solid var(--accent-yellow);
+}
+
+.aboutText h3 {
+  font-family: var(--font-heading);
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: var(--text-color);
+}
+
+.aboutText p {
+  color: var(--text-secondary);
+  margin-bottom: 1.2rem;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
 
 @media (max-width: 768px) {
   .hero {

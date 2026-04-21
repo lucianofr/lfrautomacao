@@ -98,6 +98,32 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        {/* About Section */}
+        <section id="sobre" className={`section ${styles.about}`}>
+          <div className="container">
+            <div className={styles.sectionHeader}>
+              <h2 className="heading-lg">Sobre o <span className="text-gradient-yellow">Especialista</span></h2>
+            </div>
+            <div className={styles.aboutContent}>
+              <div className={styles.aboutText}>
+                <h3>Luciano França Rocha</h3>
+                <p>
+                  Especialista em Automação Industrial, Instrumentação e Sistemas de Controle, com sólida experiência em melhoria de processos, desenvolvendo projetos para as indústrias de mineração e siderurgia.
+                </p>
+                <p>
+                  Sua trajetória envolve atuações desde processos de pelotização até laminação, modernizando sistemas complexos e pesquisando a aplicação de novas tecnologias (como medição online em tempo real). Ele une os fundamentos da engenharia de controle com ferramentas avançadas de Inteligência Artificial, Visão Computacional e Arquiteturas Edge.
+                </p>
+                <p>
+                  Além da aplicação prática em chão de fábrica, atua com pesquisa técnica, sendo coautor de estudos voltados à eficiência operacional e uso de metodologias como Design for Six Sigma (DFSS) em ambientes industriais críticos.
+                </p>
+                <a href="https://www.linkedin.com/in/lucianofr/" target="_blank" rel="noopener noreferrer" className="btn-outline" style={{ marginTop: '1.5rem', display: 'inline-flex', alignItems: 'center', gap: '0.5rem' }}>
+                  Acessar Currículo Completo no LinkedIn
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
 
       <Footer />
