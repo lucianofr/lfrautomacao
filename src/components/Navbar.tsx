@@ -36,7 +36,7 @@ export default function Navbar() {
           </li>
         </ul>
 
-        <Link href="mailto:contato@lfrautomacao.com" className={`btn-outline ${styles.contactBtn}`}>
+        <Link href="mailto:luciano82@gmail.com" className={`btn-outline ${styles.contactBtn}`}>
           Falar com Especialista
         </Link>
       </div>
