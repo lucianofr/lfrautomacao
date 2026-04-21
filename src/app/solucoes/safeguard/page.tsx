@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { ShieldCheck, Crosshair, Network, Cpu } from 'lucide-react';
@@ -26,6 +27,14 @@ export default function SafeGuardPage() {
                 Parada de emergência automática, sem depender do reflexo humano.
               </blockquote>
 
+              <Image 
+                src="/images/safeguard.jpeg" 
+                alt="SafeGuard Vision Interface" 
+                width={1200} 
+                height={675} 
+                className={styles.screenshot} 
+              />
+
               <h2>O Problema no Chão de Fábrica</h2>
               <p>
                 Todo ano, milhares de acidentes em plantas industriais acontecem no mesmo padrão: um operador entra em uma zona de risco em <strong>um segundo</strong>, e o tempo de reação humana simplesmente não é suficiente. Sensores físicos ajudam, mas cobrem áreas limitadas e <strong>não entendem o contexto</strong> da cena.
@@ -44,6 +53,15 @@ export default function SafeGuardPage() {
               </ul>
 
               <h2>Desafios Técnicos Solucionados</h2>
+              
+              <Image 
+                src="/images/safeguard2.jpeg" 
+                alt="Detecções do SafeGuard Vision" 
+                width={1200} 
+                height={675} 
+                className={styles.screenshot} 
+              />
+
               <h3>Latência Fim-a-Fim sob Controle</h3>
               <p>
                 Entre frame capturado e coil escrito no CLP, o objetivo é ficar abaixo de 300 ms. Isso exigiu um pipeline 100% assíncrono e event bus desacoplado para que a UI nunca atrase o caminho crítico de shutdown.
