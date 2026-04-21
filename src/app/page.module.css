@@ -21,7 +21,12 @@
   width: 100%;
   height: 100%;
   z-index: -1;
-  background: var(--navy-deep);
+  background-color: var(--navy-deep);
+  background-image: 
+    linear-gradient(to right, rgba(10, 25, 47, 0.95) 0%, rgba(10, 25, 47, 0.7) 50%, rgba(10, 25, 47, 0.9) 100%),
+    url('/images/hero-bg.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .heroBg::after {
