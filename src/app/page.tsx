@@ -19,9 +19,7 @@ export default function Home() {
               <span className="text-gradient-amber">Chão de Fábrica</span>
             </h1>
             <p className={`${styles.heroDescription} animate-fade-in delay-200`}>
-              A LFR Automação é uma consultoria especializada em otimização de processos 
-              industriais. Transformamos dados em ações autônomas utilizando Inteligência 
-              Artificial, Visão Computacional e Arquiteturas Edge.
+              A LFR Automação é uma consultoria especializada em otimização de processos industriais. Através do uso de APC (MPC ou Fuzzy), Inteligência Artificial, Visão Computacional e arquiteturas Edge computing levamos o processo a um patamar superior.
             </p>
             <div className={`${styles.heroActions} animate-fade-in delay-300`}>
               <a href="#solucoes" className="btn-primary">Explorar Soluções</a>
