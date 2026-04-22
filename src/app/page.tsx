@@ -64,10 +64,10 @@ export default function Home() {
             <div className="grid grid-cols-2">
               <ProductCard 
                 title="SafeGuard Vision"
-                description="Sistema de segurança industrial com Visão Computacional (YOLO) e integração direta ao CLP para parada de emergência autônoma."
+                description="Sistema de segurança industrial com Visão Computacional (YOLO26) e integração direta ao CLP para parada de emergência autônoma."
                 href="/solucoes/safeguard"
                 icon={<ShieldAlert size={28} />}
-                tags={['YOLO11', 'Visão Computacional', 'Modbus/OPC-UA', 'Segurança']}
+                tags={['YOLO26', 'Visão Computacional', 'Modbus/OPC-UA', 'Segurança']}
               />
               <ProductCard 
                 title="SensorPredict"

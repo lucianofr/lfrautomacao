@@ -15,7 +15,7 @@ export default function SafeGuardPage() {
               SafeGuard <span className="text-gradient-yellow">Vision</span>
             </h1>
             <p className={styles.heroSubtitle}>
-              Sistema de segurança industrial que une YOLO, comunicação industrial (Modbus/OPC UA) e dashboard em tempo real para prevenir acidentes em ambientes de alto risco.
+              Sistema de segurança industrial que une YOLO26, comunicação industrial (Modbus/OPC UA) e dashboard em tempo real para prevenir acidentes em ambientes de alto risco.
             </p>
           </div>
         </section>
@@ -70,7 +70,7 @@ export default function SafeGuardPage() {
 
               <h3>Execução em Edge</h3>
               <p>
-                YOLO11n foi escolhido para rodar em mini PCs industriais e Jetson Nano/Orin, sem depender da nuvem.
+                YOLO26n foi escolhido para rodar em mini PCs industriais e Jetson Nano/Orin, sem depender da nuvem.
               </p>
             </article>
 
@@ -78,7 +78,7 @@ export default function SafeGuardPage() {
               <div className={styles.techBox}>
                 <h4>Stack Tecnológica</h4>
                 <ul className={styles.techList}>
-                  <li><Crosshair size={18} /> Ultralytics YOLO11</li>
+                  <li><Crosshair size={18} /> Ultralytics YOLO26</li>
                   <li><Network size={18} /> Modbus TCP & OPC UA</li>
                   <li><Cpu size={18} /> Python 3.11+ & FastAPI</li>
                   <li><ShieldCheck size={18} /> Arq. Hexagonal (Ports & Adapters)</li>

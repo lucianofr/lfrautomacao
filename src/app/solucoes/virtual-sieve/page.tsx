@@ -43,7 +43,7 @@ export default function VirtualSievePage() {
               <ul>
                 <li><strong>Captura:</strong> Suporte a câmeras USB, IP e streams RTSP.</li>
                 <li><strong>Segmentação Clássica:</strong> OpenCV com limiarização adaptativa e separação Watershed.</li>
-                <li><strong>Segmentação Deep Learning:</strong> Modelos YOLO para cenários e fundos mais complexos.</li>
+                <li><strong>Segmentação Deep Learning:</strong> Modelos YOLO26 para cenários e fundos mais complexos.</li>
                 <li><strong>Medição:</strong> Cálculo de área, diâmetro equivalente e classificação em faixas granulométricas (sieve ranges).</li>
               </ul>
 
@@ -71,7 +71,7 @@ export default function VirtualSievePage() {
               <div className={styles.techBox}>
                 <h4>Stack Tecnológica</h4>
                 <ul className={styles.techList}>
-                  <li><Camera size={18} /> OpenCV & YOLO</li>
+                  <li><Camera size={18} /> OpenCV & YOLO26</li>
                   <li><Server size={18} /> FastAPI Backend</li>
                   <li><Microscope size={18} /> Next.js Frontend</li>
                   <li><Lock size={18} /> JWT & Argon2</li>
