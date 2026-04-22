@@ -43,7 +43,7 @@ export default function VirtualSievePage() {
               <ul>
                 <li><strong>Captura:</strong> Suporte a câmeras USB, IP e streams RTSP.</li>
                 <li><strong>Segmentação Clássica:</strong> OpenCV com limiarização adaptativa e separação Watershed.</li>
-                <li><strong>Segmentação Deep Learning:</strong> Modelos YOLO26 para cenários e fundos mais complexos.</li>
+                <li><strong>Segmentação Deep Learning:</strong> Modelos YOLO26 para cenários e fundos mais complexos. Também é capaz de utilizar o modelo <strong>SAM (Segment Anything Model)</strong> da Meta para desafios extremos, embora exija uma GPU poderosa para aplicações em tempo real.</li>
                 <li><strong>Medição:</strong> Cálculo de área, diâmetro equivalente e classificação em faixas granulométricas (sieve ranges).</li>
               </ul>
 
