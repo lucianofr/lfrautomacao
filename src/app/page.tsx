@@ -1,7 +1,7 @@
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ProductCard from '@/components/ProductCard';
-import { ShieldAlert, Activity, BrainCircuit, Scan, Thermometer } from 'lucide-react';
+import { ShieldAlert, Activity, BrainCircuit, Scan, Thermometer, Cable } from 'lucide-react';
 import styles from './page.module.css';
 
 export default function Home() {
@@ -89,6 +89,13 @@ export default function Home() {
                 href="/solucoes/virtual-sieve"
                 icon={<Scan size={28} />}
                 tags={['FastAPI', 'Next.js', 'Segmentação', 'Controle de Qualidade']}
+              />
+              <ProductCard 
+                title="OpcUA Wrapper"
+                description="Encapsula dados de um servidor OPC DA local e os expõe em um endpoint OPC-UA. Inclui configurador visual e serviço Windows."
+                href="/solucoes/opcua-wrapper"
+                icon={<Cable size={28} />}
+                tags={['OPC DA', 'OPC-UA', 'Windows Service', 'IIoT']}
               />
               <ProductCard 
                 title="TermoCar"
