@@ -61,6 +61,16 @@ export default function OpcUAWrapperPage() {
             </article>
 
             <aside className={styles.sidebar}>
+              <div className={styles.techBox} style={{ marginBottom: '1.5rem', textAlign: 'center' }}>
+                <h4>Download do Instalador</h4>
+                <p style={{ fontSize: '0.9rem', marginBottom: '1rem', color: 'var(--text-muted)' }}>
+                  Baixe a versão mais recente do Configurador e do Serviço Windows.
+                </p>
+                <a href="/files/OpcUaWrapperSetup-1.0.0.exe" download className="btn-primary" style={{ display: 'block', width: '100%', padding: '0.8rem', textAlign: 'center' }}>
+                  Baixar OpcUA Wrapper v1.0.0
+                </a>
+              </div>
+
               <div className={styles.techBox}>
                 <h4>Características Técnicas</h4>
                 <ul className={styles.techList}>
