@@ -1,7 +1,7 @@
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ProductCard from '@/components/ProductCard';
-import { ShieldAlert, Activity, BrainCircuit, Scan, Thermometer, Cable } from 'lucide-react';
+import { ShieldAlert, Activity, BrainCircuit, Scan, Thermometer, Cable, Zap } from 'lucide-react';
 import styles from './page.module.css';
 
 export default function Home() {
@@ -96,6 +96,13 @@ export default function Home() {
                 href="/solucoes/opcua-wrapper"
                 icon={<Cable size={28} />}
                 tags={['OPC DA', 'OPC-UA', 'Windows Service', 'IIoT']}
+              />
+              <ProductCard 
+                title="Tríade Energia"
+                description="Dashboard avançado para monitoramento de consumo de energia, análise de demanda de pico e controle de custos industriais em tempo real."
+                href="/solucoes/triade-energia"
+                icon={<Zap size={28} />}
+                tags={['Gestão de Energia', 'Dashboard', 'KPIs Industriais', 'Relatórios']}
               />
               <ProductCard 
                 title="TermoCar"
