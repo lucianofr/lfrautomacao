@@ -1,7 +1,7 @@
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ProductCard from '@/components/ProductCard';
-import { ShieldAlert, Activity, BrainCircuit, Scan, Thermometer, Cable, Zap } from 'lucide-react';
+import { ShieldAlert, Activity, BrainCircuit, Scan, Thermometer, Cable, Zap, BatteryCharging } from 'lucide-react';
 import styles from './page.module.css';
 
 export default function Home() {
@@ -103,6 +103,13 @@ export default function Home() {
                 href="/solucoes/triade-energia"
                 icon={<Zap size={28} />}
                 tags={['Gestão de Energia', 'Dashboard', 'KPIs Industriais', 'Relatórios']}
+              />
+              <ProductCard 
+                title="UPS-Monitor"
+                description="Telemetria e gestão centralizada para Nobreaks corporativos. Integração SNMP e IoT via LoRaWAN com motor de alarmes e mapa geográfico."
+                href="/solucoes/ups-monitor"
+                icon={<BatteryCharging size={28} />}
+                tags={['Monitoramento UPS', 'LoRaWAN', 'SNMP', 'Telemetria']}
               />
               <ProductCard 
                 title="TermoCar"
