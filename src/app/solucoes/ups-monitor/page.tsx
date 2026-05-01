@@ -1,6 +1,6 @@
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import { BatteryCharging, Map, BellRing, LineChart } from 'lucide-react';
+import { BatteryCharging, Map, BellRing, LineChart, Wifi, ShieldCheck } from 'lucide-react';
 import styles from '../solucao.module.css';
 
 export default function UpsMonitorPage() {
@@ -26,16 +26,24 @@ export default function UpsMonitorPage() {
                 Antecipe falhas de energia, gerencie a autonomia das suas baterias e monitore ativos geograficamente distribuídos em um único Operations Center em tempo real.
               </blockquote>
 
-              <img 
-                src="/images/ups-monitor-1.png" 
-                alt="Dashboard Principal do Operations Center" 
-                className={styles.screenshot} 
+              {/* Dashboard principal */}
+              <img
+                src="/images/ups1.jpeg"
+                alt="Dashboard Principal do Operations Center"
+                className={styles.screenshot}
               />
 
               <h2>Proteção Proativa para Infraestrutura Crítica</h2>
               <p>
-                Para Data Centers (CPDs), hospitais e indústrias, uma queda de energia sem o devido suporte do Nobreak (UPS) pode causar prejuízos incalculáveis. O <strong>UPS-Monitor</strong> elimina a gestão "às cegas" dos seus nobreaks, unificando equipamentos de diferentes fabricantes (APC, Schneider, Intelbras, NHS, etc.) em uma única plataforma visual.
+                Para Data Centers (CPDs), hospitais e indústrias, uma queda de energia sem o devido suporte do Nobreak (UPS) pode causar prejuízos incalculáveis. O <strong>UPS-Monitor</strong> elimina a gestão &quot;às cegas&quot; dos seus nobreaks, unificando equipamentos de diferentes fabricantes (APC, Schneider, Intelbras, NHS, etc.) em uma única plataforma visual.
               </p>
+
+              <img
+                src="/images/ups2..jpeg"
+                alt="Visão Geral dos Dispositivos Monitorados"
+                className={styles.screenshot}
+                style={{ marginTop: '2rem', marginBottom: '2rem' }}
+              />
 
               <h2>Visibilidade Total e Distribuída</h2>
               <p>
@@ -47,10 +55,10 @@ export default function UpsMonitorPage() {
                 <li><strong>Diagnóstico Instantâneo:</strong> Saiba exatamente qual rack ou subestação está operando via rede comercial ou descarregando as baterias.</li>
               </ul>
 
-              <img 
-                src="/images/ups-monitor-2.png" 
-                alt="Mapa LoRaWAN de Dispositivos e Status Individual dos Nobreaks" 
-                className={styles.screenshot} 
+              <img
+                src="/images/ups3.jpeg"
+                alt="Mapa LoRaWAN de Dispositivos e Status Individual dos Nobreaks"
+                className={styles.screenshot}
                 style={{ marginTop: '2rem', marginBottom: '2rem' }}
               />
 
@@ -64,10 +72,17 @@ export default function UpsMonitorPage() {
                 <li><strong>Histórico e Reconhecimento:</strong> Todo evento fica registrado, permitindo aos operadores reconhecer e gerenciar as ocorrências (Ack).</li>
               </ul>
 
-              <img 
-                src="/images/ups-monitor-4.png" 
-                alt="Gráficos de Telemetria Histórica" 
-                className={styles.screenshot} 
+              <img
+                src="/images/ups4.jpeg"
+                alt="Painel de Alarmes e Regras"
+                className={styles.screenshot}
+                style={{ marginTop: '2rem', marginBottom: '2rem' }}
+              />
+
+              <img
+                src="/images/ups5.jpeg"
+                alt="Configuração de Thresholds e Alertas"
+                className={styles.screenshot}
                 style={{ marginTop: '2rem', marginBottom: '2rem' }}
               />
 
@@ -75,6 +90,20 @@ export default function UpsMonitorPage() {
               <p>
                 Analise o comportamento elétrico da sua planta ao longo do tempo através de gráficos interativos de Potência, Carga, Nível de Bateria e Tensão de Saída. Os registros armazenados permitem auditorias detalhadas para planejar expansões de infraestrutura com base em dados reais de consumo.
               </p>
+
+              <img
+                src="/images/ups6.jpeg"
+                alt="Gráficos de Telemetria Histórica"
+                className={styles.screenshot}
+                style={{ marginTop: '2rem', marginBottom: '2rem' }}
+              />
+
+              <img
+                src="/images/ups7.jpeg"
+                alt="Relatórios e Exportação de Dados"
+                className={styles.screenshot}
+                style={{ marginTop: '2rem', marginBottom: '2rem' }}
+              />
 
             </article>
 
@@ -84,8 +113,10 @@ export default function UpsMonitorPage() {
                 <ul className={styles.techList}>
                   <li><BatteryCharging size={18} /> Compatibilidade Multi-Marcas</li>
                   <li><Map size={18} /> Geolocalização LoRaWAN</li>
+                  <li><Wifi size={18} /> Protocolo SNMP</li>
                   <li><BellRing size={18} /> Motor de Regras e Alarmes</li>
                   <li><LineChart size={18} /> Telemetria e Histórico</li>
+                  <li><ShieldCheck size={18} /> Proteção de Infraestrutura Crítica</li>
                 </ul>
               </div>
             </aside>
