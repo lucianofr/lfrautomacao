@@ -1,0 +1,22 @@
+Options -Indexes
+
+# Força HTTPS (descomente se necessário na Hostinger)
+# RewriteCond %{HTTPS} off
+# RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteEngine On
+
+# Se o arquivo/pasta existe, serve diretamente (evita loops)
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Adiciona trailing slash se não houver extensão e não for arquivo
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !/$
+RewriteCond %{REQUEST_URI} !\.[a-zA-Z0-9]+$
+RewriteRule ^(.*)$ /$1/ [R=301,L]
+
+# Serve index.html dentro do diretório correspondente
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^(.*)$ $1/index.html [L]
