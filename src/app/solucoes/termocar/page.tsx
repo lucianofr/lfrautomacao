@@ -95,7 +95,7 @@ export default function TermoCarPage() {
               />
 
               <img
-                src="/images/termocar-zone-stats.png"
+                src="/images/termocar-zone-stats.jpeg"
                 alt="Estatísticas por zona do forno"
                 className={styles.screenshot}
                 style={spaced}
