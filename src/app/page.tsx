@@ -113,10 +113,10 @@ export default function Home() {
               />
               <ProductCard 
                 title="TermoCar"
-                description="Portal e solução completa de instrumentação especializada e medição de temperatura para processos rigorosos."
-                href="https://termopares.click/"
+                description="Telemetria térmica de carros de grelha em fornos de pelotização e sinterização. Mapa 3D por ciclo, OPC-UA, datalogger e integração PIMS."
+                href="/solucoes/termocar"
                 icon={<Thermometer size={28} />}
-                tags={['Instrumentação', 'Medição Térmica', 'Solução Externa']}
+                tags={['Medição Térmica', 'Mapa 3D', 'OPC-UA', 'PIMS']}
               />
             </div>
           </div>
